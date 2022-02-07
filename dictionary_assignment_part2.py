@@ -66,4 +66,5 @@ for letter in content_file:
     else:
         outfile.write(letter)  # printing spaces,commas, periods...
 
+content.close()
 outfile.close()
